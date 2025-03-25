@@ -4,6 +4,7 @@
         <nav>
             <ul>
                 <li><router-link :to="`/`">Home</router-link></li>
+                <li><router-link :to="`/anys_beques`">Beques</router-link></li>
             </ul>
         </nav>
     </div>
@@ -22,7 +23,8 @@ ul{
 }
 
 li{
-    margin: 1%;
+    margin-right: 5%;
+    
 }
 
 a{
@@ -30,8 +32,9 @@ a{
     color: rgb(0, 132, 255);
     border: 2px solid rgb(0, 132, 255);
     border-radius: 10px;
-    padding: 35%;
+    padding: 15px;
     transition: 0.3s;
+    
 }
 
 a:hover{
